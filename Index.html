@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basketball Card</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <button id="reset-btn" onclick="reset()">Reset</button>
+            <div id="mini-container">
+                <h3>HOME</h3>
+                <div class="board" id="home-board">
+                    <h1 id="homescore-el">0</h1>
+                </div>
+                <div id="button-home">
+                    <button onclick="add1home()">+1</button>
+                    <button onclick="add2home()">+2</button>
+                    <button onclick="add3home()">+3</button>
+                </div>
+            </div>
+
+
+            <div>
+                <h3>GUEST</h3>
+                <div class="board" id="guest-board">
+                    <h1 id="guestscore-el">0</h1>
+                </div>
+                <div id="button-guest">
+                    <button onclick="add1guest()">+1</button>
+                    <button onclick="add2guest()">+2</button>
+                    <button onclick="add3guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="Index.js"></script>
+    </body>
+</html>

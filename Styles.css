@@ -1,0 +1,88 @@
+ @font-face {
+    font-family: "Cursed Timer ULiL";
+    src: local("Cursed Timer ULiL");
+ }
+ 
+ body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    
+ }
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 68px 82px;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    
+
+ }
+ h1 {
+    text-decoration: dotted;
+    color: #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+    font-family: "Cursed Timer ULiL";
+    padding: 16px;
+    
+    
+ }
+ h3 {
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #home-board {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 21px 0 26px 0;
+    
+    
+ }
+ #guest-board {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 21px 0 26px 0;
+ }
+
+#mini-container {
+    padding: 0;
+    margin: 0;
+ }
+ button {
+    margin: 0 2px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8 2px;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+    font-family: "Cursed Timer ULiL";
+    
+ }
+
+ #button-home, #button-guest {
+    text-align: center;
+ }
+
+ #reset-btn {
+   width: 80px;
+   position: absolute;
+   margin-top: 300px;;
+   color: #F94F6D;
+   text-align: center;
+ }
+
